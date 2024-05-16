@@ -8,24 +8,24 @@ Airbnb's expansion into New York City is a significant undertaking with both opp
 
 ## Dataset
 
-We utilized the ["New York City Airbnb Open Data"](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data) dataset sourced from Kaggle. This dataset provides comprehensive information about Airbnb accommodations in New York City, including:
+We utilized the ["New York City Airbnb Open Data"](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data) dataset sourced from Kaggle. This dataset provides comprehensive information about Airbnb listings in New York City, including:
 
-- id: A unique identifier for each Airbnb accommodation.
-- name: The title or name that the host has given to their accommodation.
+- id: A unique identifier for each Airbnb listing.
+- name: The title or name that the host has given to their listing.
 - host_id: A unique identifier for each Airbnb host.
 - host_name: The name of the Airbnb host.
-- neighbourhood_group: The broader borough or area of New York City where the accommodation is located (e.g., Manhattan, Brooklyn, Queens).
-- neighbourhood: The more specific neighborhood within the neighbourhood_group where the accommodation is situated (e.g., Harlem, Kensington, Midtown).
-- latitude: The geographic latitude coordinate of the accommodation.
-- longitude: The geographic longitude coordinate of the accommodation.
+- neighbourhood_group: The broader borough or area of New York City where the listing is located (e.g., Manhattan, Brooklyn, Queens).
+- neighbourhood: The more specific neighborhood within the neighbourhood_group where the listing is situated (e.g., Harlem, Kensington, Midtown).
+- latitude: The geographic latitude coordinate of the listing.
+- longitude: The geographic longitude coordinate of the listing.
 - room_type: The type of accommodation being offered (e.g., "Private room," "Entire home/apt").
-- price: The price per night for the accommodation, in US dollars.
-- minimum_nights: The minimum number of nights a guest must book for the accommodation.
-- number_of_reviews: The total number of reviews the accommodation has received.
-- last_review: The date of the most recent review for the accommodation.
-- reviews_per_month: An estimate of the average number of reviews the accommodation receives per month.
-- calculated_host_listings_count: The estimated number of accommodations the host has in total.
-- availability_365: The number of days in the next 365 days that the accommodation is available for booking.
+- price: The price per night for the listing, in US dollars.
+- minimum_nights: The minimum number of nights a guest must book for the listing.
+- number_of_reviews: The total number of reviews the listing has received.
+- last_review: The date of the most recent review for the listing.
+- reviews_per_month: An estimate of the average number of reviews the listing receives per month.
+- calculated_host_listings_count: The estimated number of listings the host has in total.
+- availability_365: The number of days in the next 365 days that the listing is available for booking.
 
 ## Objectives
 
